@@ -1,0 +1,206 @@
+p{
+  font-family: chiller;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.linear{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.head{
+  font-size: 40px;
+  color: red;
+}
+
+.one div{
+  height: 600px;
+  background-color: red;
+}
+
+.one1{
+  background-image: linear-gradient(yellow,red);
+}
+
+.one2{
+  background-image: linear-gradient(red,yellow);
+}
+
+.one3{
+  background-image: linear-gradient(yellow,blue);
+}
+
+.one4{
+  background-image: linear-gradient(blue,yellow);
+}
+
+.one5{
+  background-image: linear-gradient(red,blue);
+}
+
+.one6{
+  background-image: linear-gradient(blue,red);
+}
+
+.one7{
+  background-image: linear-gradient(red,white);
+}
+
+.one8{
+  background-image: linear-gradient(red,black);
+}
+
+.one9{
+  background-image: linear-gradient(blue,white);
+}
+
+.one10{
+  background-image: linear-gradient(blue,black);
+}
+
+.one11{
+  background-image: linear-gradient(yellow,white);
+}
+
+.one12{
+  background-image: linear-gradient(yellow,black);
+}
+
+.one13{
+  background-image: linear-gradient(yellow,red,yellow);
+}
+
+.one14{
+  background-image: linear-gradient(red,yellow,red);
+}
+
+.one15{
+  background-image: linear-gradient(yellow,blue,yellow);
+}
+
+.one16{
+  background-image: linear-gradient(blue,yellow,blue);
+}
+
+.one17{
+  background-image: linear-gradient(red,blue,red);
+}
+
+.one18{
+  background-image: linear-gradient(blue,red,blue);
+}
+
+.one19{
+  background-image: linear-gradient(yellow,white,yellow);
+}
+
+.one20{
+  background-image: linear-gradient(white,yellow,white);
+}
+
+.one21{
+  background-image: linear-gradient(red,white,red);
+}
+
+.one22{
+  background-image: linear-gradient(white,red,white);
+}
+
+.one23{
+  background-image: linear-gradient(blue,white,blue);
+}
+
+.one24{
+  background-image: linear-gradient(white,blue,white);
+}
+
+.one25{
+  background-image: linear-gradient(yellow,black,yellow);
+}
+
+.one26{
+  background-image: linear-gradient(black,yellow,black);
+}
+
+.one27{
+  background-image: linear-gradient(red,black,red);
+}
+
+.one28{
+  background-image: linear-gradient(black,red,black);
+}
+
+.one29{
+  background-image: linear-gradient(blue,black,blue);
+}
+
+.one30{
+  background-image: linear-gradient(black,blue,black);
+}
+
+.head2{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.to-right,
+.to-bottom-right{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.two div{
+  background-color: red;
+  height: 100px;
+}
+
+.two1{
+  background-image: linear-gradient(to right,yellow,red);
+}
+
+.two2{
+  background-image: linear-gradient(to right,red,yellow);
+}
+
+.three div{
+  background-color: red;
+  height: 500px;
+}
+
+.three1{
+  background-image: linear-gradient(to bottom right,yellow,red);
+}
+
+.three2{
+  background-image: linear-gradient(to bottom right,red,yellow);
+}
+
+.repetition{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.four div{
+  height: 600px;
+  background-color: red;
+}
+
+.four1{
+  background-image: repeating-linear-gradient(yellow,red 10%);
+}
+
+.four2{
+  background-image: repeating-linear-gradient(yellow,red 5%);
+}
+
+.four3{
+  background-image: repeating-linear-gradient(yellow,red 1%);
+}
